@@ -1,0 +1,50 @@
+.about-section{
+    border: 2px solid rgb(30, 5, 49);
+    background-color: rgb(30, 5, 49);
+    padding: 30px;
+}
+
+.about-section h1{
+    text-align: center;
+    color: rgb(129, 15, 217);
+    font-size: 3.5em;
+}
+
+.about-section h2{
+    color: #fff;
+    text-align: center;
+}
+
+.about-section .about-text{
+    margin-left: 300px;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.about-section ul{
+    margin-left: 300px;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.about-section .portfolio-link{
+    text-align: center;
+}
+
+.about-section table{
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.about-section td,th{
+    border: 2px solid #fff;
+    padding: 25px;
+    font-size: 1.3em;
+    text-align: center;
+    color: #fff;
+}
+
+.about-section th{
+    font-weight: bold;
+}
