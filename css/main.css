@@ -5,3 +5,22 @@ body{
     margin: 0;
     padding: 0;
 }
+
+/* BUTTON STYLE */
+
+.btn{
+    border: 2px solid rgb(129, 15, 217);
+    background-color: rgb(129, 15, 217);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    transition: all 250ms;
+}
+
+.btn:hover{
+    border-color: rgb(94, 13, 155);
+    background-color: rgb(94, 13, 155);
+}

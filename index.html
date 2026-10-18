@@ -28,13 +28,111 @@
         </header>
 
         <main>
-            <section></section>
-            <section></section>
-            <section></section>
+            <!--HERO SECTION-->
+            <section class="hero-section">
+                <div class="row">
+                    <!--CONTENT-->
+                    <div class="col">
+                        <h1>
+                            Robbie Lens <br> photographie
+                        </h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                            Dicta quaerat excepturi architecto! Nostrum, natus et molestiae <br>
+                            ipsam laboriosam minus dolorem totam, perferendis quisquam <br>
+                            vero voluptates soluta debitis hic dignissimos voluptatem?
+                        </p>
+                        <a href="#form-contact" class="btn">Un projet? Ecrivez-moi</a>
+                    </div>
+
+                    <!--HERO PHOTO-->
+                    <div class="col">
+                        <img src="images/robbie-lens.png" alt="hero's photo">
+                    </div>
+                </div>
+            </section><br><br>
+
+            <!--PROJECT SECTION-->
+            <section class="project-section">
+                <h1>Mes derniers projets</h1>
+                <div class="row">
+                    <div class="col">
+                        <img src="images/element-1.png" alt="">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/element-2.png" alt="">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/element-3.png" alt="">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <img src="images/element-4.png" alt="">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/element-5.png" alt="">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/element-6.png" alt="">
+                    </div>
+                </div>
+            </section><br><br>
+
+            <!--FORM CONTACT SECTION-->
+            <section class="form-contact" id="form-contact">
+                <h1>Parlons de votre projet</h1>
+                <form class="form">
+                    <div class="row">
+                        <div class="col">
+                            <label for="user-name" class="form-label">Nom</label><br>
+                            <input type="text" name="user-name" id="user-name" required aria-required="true" class="form-input">
+                        </div>
+
+                        <div class="col">
+                            <label for="user-email" class="form-label">Email</label><br>
+                            <input type="email" name="user-email" id="user-email" required aria-required="true" class="form-input">
+                        </div>
+                    </div><br>
+
+                    <div class="row">
+                        <div class="col">
+                            <label for="user-message" class="form-label">Message</label><br>
+                            <textarea name="user-message" id="user-message" required aria-required="true" cols="30" rows="10" class="form-input"></textarea>
+                        </div>
+                    </div><br>
+
+                    <div class="row">
+                        <div class="col">
+                            <button type="submit" class="btn">Envoyer</button>
+                        </div>
+                    </div>
+                </form>
+            </section>
         </main>
 
-        <footer>
+        <footer class="footer">
+            <nav class="navbar">
+                <div class="navbar-brand">
+                    <a href="index.html">
+                        Robbie <br> Lens
+                    </a>
+                </div>
 
+                <div class="social-media">
+                    <a href="#" title="instagram">
+                        <img src="icons/instagram.png" alt="">
+                    </a>
+                    <a href="#" title="twitter">
+                        <img src="icons/twitter.png" alt="">
+                    </a>
+                </div>
+            </nav>
         </footer>
     </body>
 </html>

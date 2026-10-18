@@ -1,0 +1,85 @@
+/* HERO SECTION */
+
+.hero-section{
+    border: 2px solid rgb(30, 5, 49);
+    background-color: rgb(30, 5, 49);
+    padding: 30px;
+}
+
+.hero-section .row{
+    display: flex;
+    justify-content: center;
+}
+
+.hero-section .col{
+    padding: 8px;
+}
+
+.hero-section h1{
+    font-size: 3em;
+    color: rgb(129, 15, 217);
+}
+
+.hero-section p{
+    color: #fff;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+/* PROJECT SECTION */
+
+.project-section h1{
+    text-align: center;
+}
+
+.project-section .row{
+    display: flex;
+    justify-content: center;
+}
+
+.project-section .col{
+    padding: 8px;
+}
+
+/* FORM CONTACT SECTIONN */
+
+.form-contact{
+    border: 2px solid rgb(30, 5, 49);
+    background-color: rgb(30, 5, 49);
+    padding: 30px;
+}
+
+.form-contact h1{
+    text-align: center;
+    color: rgb(129, 15, 217);
+}
+
+.form-contact .row{
+    display: flex;
+    justify-content: center;
+}
+
+.form-contact .col{
+    padding: 5px;
+}
+
+.form-contact .form .form-label{
+    color: #fff;
+}
+
+.form-contact .form input{
+    width: 500px;
+}
+
+.form-contact .form textarea{
+    width: 1020px;
+}
+
+.form-contact .form .form-input{
+    padding: 3px;
+    outline: none;
+}
+
+.form-contact .form .form-input:focus{
+    border: 2px solid rgb(129, 15, 217);
+}

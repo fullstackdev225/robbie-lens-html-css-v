@@ -1,0 +1,26 @@
+.footer{
+    border: 2px solid rgb(129, 15, 217);
+    background-color: rgb(129, 15, 217);
+    padding: 10px;
+}
+
+.footer .navbar-brand{
+    margin-left: 150px;
+}
+
+.footer .navbar-brand a{
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(30, 5, 49);
+}
+
+.footer .social-media{
+    float: right;
+    margin-top: -50px;
+    margin-right: 120px;
+}
+
+.footer .social-media a:hover{
+    opacity: 0.8;
+}
