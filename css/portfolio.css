@@ -1,0 +1,94 @@
+/* TITLE SECTION */
+
+.title-section{
+    border: 2px solid rgb(30, 5, 45);
+    background-color: rgb(30, 5, 45);
+}
+
+.title-section h1{
+    font-size: 3em;
+    color: rgb(129, 15, 217);
+    margin-left: 150px;
+}
+
+/* LANDSCAPE IMAGES SECTION */
+
+.landscape-image h1{
+    text-align: center;
+}
+
+.landscape-image .row{
+    display: flex;
+    justify-content: center;
+}
+
+.landscape-image .col{
+    padding: 8px;
+}
+
+.landscape-image a{
+    position: relative;
+}
+
+.landscape-image .text-hover{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 1.4em;
+    color: #fff;
+    margin-top: -320px;
+    margin-bottom: 3px;
+    display: none;
+}
+
+.landscape-image a:hover .text-hover{
+    display: flex;
+}
+
+/* PORTRAIT IMAGES SECTION */
+
+.portrait-image h1{
+    text-align: center;
+}
+
+.portrait-image .row{
+    display: flex;
+    justify-content: center;
+}
+
+.portrait-image .col{
+    padding: 8px;
+}
+
+.portrait-image a{
+    position: relative;
+}
+
+.portrait-image .text-hover{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 1.4em;
+    color: #fff;
+    margin-top: -735px;
+    margin-bottom: 3px;
+    display: none;
+}
+
+.portrait-image a:hover .text-hover{
+    display: flex;
+}
