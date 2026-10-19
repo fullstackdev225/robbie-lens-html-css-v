@@ -83,3 +83,48 @@
 .form-contact .form .form-input:focus{
     border: 2px solid rgb(129, 15, 217);
 }
+
+/* RESPONSIVE DESIGN MOBILE */
+
+@media screen and (max-width: 768px){
+    /* HERO SECTION */
+
+    .hero-section .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-section .col{
+        margin: 8px;
+    }
+
+    .hero-section img{
+        width: 300px;
+    }
+
+    /* PROJECT SECTION */
+
+    .project-section .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-section .col{
+        margin: 5px;
+    }
+
+    /* FORM CONTACT SECTION */
+
+    .form-contact .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-contact .col{
+        margin: 5px;
+    }
+
+    .form-contact .form .form-input{
+        width: 300px;
+    }
+}

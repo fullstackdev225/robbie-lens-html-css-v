@@ -40,3 +40,17 @@
 .header .active{
     color: rgb(30, 5, 49);
 }
+
+/* RESPONSIVE DESIGN : MOBILE */
+
+@media screen and (max-width: 768px) {
+    .header .navbar-brand{
+        margin-left: 20px;
+    }
+
+    .header .navbar-nav{
+        flex-direction: column;
+        margin-right: 20px;
+        margin-top: -65px;
+    }
+}

@@ -48,3 +48,20 @@
 .about-section th{
     font-weight: bold;
 }
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (max-width: 768px) {
+    .about-section .about-text{
+        margin-left: 80px;
+    }
+
+    .about-section ul{
+        margin-left: 80px;
+    }
+
+    .about-section td,th{
+        padding: 15px;
+        font-size: 1em;
+    }
+}

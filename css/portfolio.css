@@ -92,3 +92,39 @@
 .portrait-image a:hover .text-hover{
     display: flex;
 }
+
+/* RESPONSIVE DESIGN MOBILE */
+
+@media screen and (max-width: 768px) {
+    /* LANDSCAPE IMAGE SECTION */
+
+    .landscape-image .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .landscape-image .col{
+        margin: 5px;
+    }
+
+    .landscape-image img{
+        width: 350px;
+        height: 300px;
+    }
+
+    /* PORTRAIT IMAGES SECTION */
+
+    .portrait-image .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portrait-image .col{
+        margin: 5px;
+    }
+
+    .portrait-image img{
+        width: 350px;
+        height: 450px;
+    }
+}
